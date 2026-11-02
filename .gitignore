@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+.build
+.env
+.env.local
+.toolcache
+.pnpm-store
+.local
+public/uploads/*
+!public/uploads/.gitkeep
+*.tsbuildinfo
+next-env.d.ts

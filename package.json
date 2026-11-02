@@ -1,0 +1,33 @@
+{
+  "name": "relayroom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RelayRoom — turn a sales call into a signed proposal, a payment link, and a zero-seat client portal.",
+  "scripts": {
+    "dev": "next dev -p 4310",
+    "build": "next build",
+    "start": "next start -p 4310",
+    "typecheck": "tsc --noEmit",
+    "db:apply": "node scripts/db-apply.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@radix-ui/react-slot": "^1.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "geist": "^1.9.0",
+    "lucide-react": "^1.66.0",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  }
+}
